@@ -38,9 +38,19 @@
 ---
 
 ## Phase 6 – Débogage JS/CSS & bugs fonctionnels
-1. Galerie modale – points d’arrêt et event listeners « Précédent/Suivant »  
-2. Filtre de catégorie – ajout/retrait de la classe active au clic  
-3. Vérification console & navigation de toutes les fonctionnalités  
+1. Galerie modale  
+   - Points d’arrêt + event listeners pour « Précédent/Suivant »  
+   - Uniformiser taille des images  
+   - Focus trap + restauration du focus  
+2. Filtres galerie  
+   - Ajout/retrait de la classe `.active`  
+   - Changement de couleur en doré + texte blanc sur le bouton actif  
+3. Curseur interactif  
+   - `cursor: pointer` sur images, flèches, filtres  
+4. Cartes de service  
+   - Centrer le contenu pour une lecture agréable  
+5. Vérification console DevTools  
+   - Tester chaque fonctionnalité, corriger les erreurs JS/CSS   
 
 ---
 
