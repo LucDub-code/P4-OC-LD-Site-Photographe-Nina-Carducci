@@ -1,14 +1,14 @@
 # Plan d’action en 7 phases
 
-## Phase 1 – Préparation & audit ✅
-1. Cloner & lancer le site en local  
-2. Générer un audit Lighthouse (Desktop) + un rapport GTmetrix  
-3. Compléter le tableau des axes d’amélioration sans toucher au code  
+## Phase 1 – Préparation & audit 
+1. Cloner & lancer le site en local  ✅
+2. Générer un audit Lighthouse (Desktop) + un rapport GTmetrix  ✅
+3. Compléter le tableau des axes d’amélioration sans toucher au code  ✅
 
 ---
 
 ## Phase 2 – Optimisations de performance
-1. **Images** – redimensionner, WebP, compression  
+1. **Images** – redimensionner, WebP, compression  ✅
 2. **Code statique** – minification, purge du CSS/JS inutilisé, defer/async  
 3. **Réseau & cache** – cache-control, preload des ressources critiques  
 
@@ -42,10 +42,10 @@
    - Points d’arrêt + event listeners pour « Précédent/Suivant »  
    - Uniformiser taille des images  
    - Focus trap + restauration du focus  
-2. Filtres galerie  
+2. Filtres galerie  ✅  
    - Ajout/retrait de la classe `.active`  
    - Changement de couleur en doré + texte blanc sur le bouton actif  
-3. Curseur interactif  
+3. Curseur interactif  ✅ 
    - `cursor: pointer` sur images, flèches, filtres  
 4. Cartes de service  
    - Centrer le contenu pour une lecture agréable  
