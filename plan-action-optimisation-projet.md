@@ -47,10 +47,6 @@
    - Changement de couleur en doré + texte blanc sur le bouton actif  
 3. Curseur interactif  ✅ 
    - `cursor: pointer` sur images, flèches, filtres  
-4. Cartes de service  
-   - Centrer le contenu pour une lecture agréable  
-5. Vérification console DevTools  
-   - Tester chaque fonctionnalité, corriger les erreurs JS/CSS   
 
 ---
 
