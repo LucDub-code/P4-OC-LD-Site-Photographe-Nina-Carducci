@@ -15,24 +15,24 @@
 ---
 
 ## Phase 3 – SEO technique 
-1. Balises `<head>` – `<title>`, `<meta description>`, charset, canonical  
-2. Sémantique HTML – header, nav, main, sections, hiérarchie d’en-têtes  
-3. Meta réseaux sociaux – Open Graph & Twitter Cards  
-4. Micro-données Schema.org (LocalBusiness)  
+1. Balises `<head>` – `<title>`, `<meta description>`, charset, canonical  ✅
+2. Sémantique HTML – header, nav, main, sections, hiérarchie d’en-têtes  ✅
+3. Meta réseaux sociaux – Open Graph & Twitter Cards  ✅
+4. Micro-données Schema.org (LocalBusiness)  ✅
 
 ---
 
 ## Phase 4 – Référencement local & social
-1. Schema.org LocalBusiness (adresse, téléphone, horaires)  
+1. Schema.org LocalBusiness (adresse, téléphone, horaires)  ✅
 2. Tester Rich Snippets Google  
 3. Vérifier l’affichage OpenGraph (Facebook Debugger, Twitter Validator)  
 
 ---
 
 ## Phase 5 – Accessibilité
-1. Texte alternatif (`alt`) sur toutes les images  
+1. Texte alternatif (`alt`) sur toutes les images  ✅
 2. Modale – `role="dialog"`, `aria-modal`, focus-trap, restauration du focus  
-3. Filtre actif – surbrillance CSS, gestion de la classe `.active`  
+3. Filtre actif – surbrillance CSS, gestion de la classe `.active`  ✅
 4. Contraste & rôles ARIA – ratio ≥ 4.5:1, labels sur boutons, WAVE sans erreurs  
 
 ---
