@@ -191,19 +191,19 @@
     createLightBox(gallery, lightboxId, navigation) {
       gallery.append(`<div class="modal fade" id="${
         lightboxId ? lightboxId : "galleryLightbox"
-      }" tabindex="-1" role="dialog" aria-hidden="true">
+      }" tabindex="-1" role="dialog" aria-modal="true" aria-label="Vue détaillée de l'image">
                 <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 800px; margin: 1.75rem auto;">
                     <div class="modal-content">
                         <div class="modal-body" style="position: relative; min-height: 500px; display: flex; align-items: center; justify-content: center;">
                             ${
                               navigation
-                                ? '<div class="mg-prev" style="cursor:pointer;position:absolute;top:50%;left:-15px;background:white;z-index:1;"><</div>'
+                                ? '<div class="mg-prev" style="cursor:pointer;position:absolute;top:50%;left:-15px;background:white;z-index:1;" role="button" aria-label="Image précédente"><</div>'
                                 : '<span style="display:none;" />'
                             }
                             <img class="lightboxImage img-fluid" alt="Contenu de l'image affichée dans la modale au clique" style="max-height: 500px; object-fit: contain;"/>
                             ${
                               navigation
-                                ? '<div class="mg-next" style="cursor:pointer;position:absolute;top:50%;right:-15px;background:white;z-index:1;">></div>'
+                                ? '<div class="mg-next" style="cursor:pointer;position:absolute;top:50%;right:-15px;background:white;z-index:1;" role="button" aria-label="Image suivante">></div>'
                                 : '<span style="display:none;" />'
                             }
                         </div>
