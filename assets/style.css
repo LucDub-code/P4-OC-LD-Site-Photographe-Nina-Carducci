@@ -1,11 +1,21 @@
+/* ========================================
+   STYLES GÉNÉRAUX
+   ======================================== */
+
 body {
   max-width: 1920px;
   margin: auto;
 }
+
 * {
   font-family: "Inter";
   font-style: normal;
 }
+
+/* ========================================
+   HEADER ET NAVIGATION
+   ======================================== */
+
 .top-header {
   background-color: white;
   position: sticky;
@@ -42,6 +52,10 @@ body {
   width: 20px;
 }
 
+/* ========================================
+   SECTION À PROPOS
+   ======================================== */
+
 #about {
   display: flex;
   background-color: #f6d2b8;
@@ -70,39 +84,51 @@ body {
 .picture img {
   width: 100%;
 }
+
 #about-me {
   flex: 2;
 }
+
 .about-me__title {
   margin-top: 1em;
   margin-bottom: 60px;
   font-size: 30px;
 }
+
 .about-me__introduction {
   font-family: "Spectral";
   font-weight: 800;
   font-style: italic;
   width: 60%;
 }
+
 #about-me p {
   width: 80%;
   font-size: 14px;
 }
 
-/* #gallery {
-  	min-height: 100vh;
-} */
+/* ========================================
+   TITRES GÉNÉRAUX
+   ======================================== */
+
 .title {
   text-align: center;
   padding-block: 2em;
 }
+
+/* ========================================
+   GALERIE
+   ======================================== */
+
 .gallery .nav {
   justify-content: center;
 }
+
 .nav-pills .nav-link {
   color: #000;
   cursor: pointer;
 }
+
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link,
 .nav-pills .nav-link.active-tag {
@@ -110,16 +136,19 @@ body {
   background-color: #beb45a;
   border-radius: 0;
 }
+
 .item-column {
   position: relative;
   margin-bottom: 0 !important;
   padding: 0;
 }
+
 .item-column::after {
   content: "";
   display: block;
   padding-bottom: 100%;
 }
+
 .gallery-item {
   position: absolute;
   width: 100%;
@@ -127,6 +156,8 @@ body {
   object-fit: cover;
   padding: 0.5em;
 }
+
+/* Navigation de la galerie (boutons précédent/suivant) */
 .mg-prev,
 .mg-next {
   width: 30px;
@@ -138,6 +169,10 @@ body {
   font-size: 24px;
 }
 
+/* ========================================
+   SECTION CITATION
+   ======================================== */
+
 .quote {
   font-family: "Spectral";
   font-style: italic;
@@ -145,22 +180,29 @@ body {
   margin: auto;
   padding-block: 3em;
 }
+
 .quote__text {
   font-family: Spectral;
   font-style: italic;
   font-weight: 300;
 }
+
 .quote__author {
   font-family: Spectral;
   font-weight: 800;
   font-size: 22px;
 }
 
+/* ========================================
+   SECTION SERVICES
+   ======================================== */
+
 #services {
   margin: auto;
   background-color: #a8d5d8;
   position: relative;
 }
+
 #services .container::before {
   content: " ";
   background-color: #1c6474;
@@ -190,6 +232,10 @@ body {
   z-index: 1;
 }
 
+/* ========================================
+   SECTION CONTACT
+   ======================================== */
+
 #contact {
   margin: auto;
   background-color: #d8d3a8;
@@ -201,6 +247,7 @@ body {
 #contact .container {
   display: flex;
 }
+
 .picture.right::before {
   content: " ";
   background-color: #beb45a;
@@ -211,9 +258,12 @@ body {
   right: 0;
   z-index: -1;
 }
+
 .form-container {
   flex: 2;
 }
+
+/* Styles du formulaire */
 form {
   display: flex;
   flex-direction: column;
@@ -238,11 +288,17 @@ form textarea {
   font-size: 1.2em;
   margin-bottom: 20px;
 }
+
 input[type="submit"] {
   background-color: #beb45a;
   padding: 0.5em 1em;
 }
 
+/* ========================================
+   MEDIA QUERIES - RESPONSIVE DESIGN
+   ======================================== */
+
+/* Tablettes et écrans moyens (max-width: 1180px) */
 @media all and (max-width: 1180px) {
   .picture {
     flex: 2;
@@ -261,6 +317,7 @@ input[type="submit"] {
   }
 }
 
+/* Écrans moyens (max-width: 1000px) */
 @media all and (max-width: 1000px) {
   #about {
     flex-direction: column;
@@ -319,6 +376,7 @@ input[type="submit"] {
   }
 }
 
+/* Mobiles (max-width: 650px) */
 @media all and (max-width: 650px) {
   .top-header {
     flex-direction: column;
