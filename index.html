@@ -346,45 +346,72 @@
       <section id="services">
         <h2 class="title">Mes services</h2>
         <div class="container">
-          <article class="service">
+          <article
+            class="service"
+            itemscope
+            itemtype="https://schema.org/Service"
+          >
             <div class="service__description">
-              <h3>Shooting photo</h3>
-              <p>
+              <h3 itemprop="name">Shooting photo</h3>
+              <p itemprop="description">
                 Pour capturer vos moments les plus précieux et garder un
                 souvenir impérissable. Je me déplace en région bordelaise pour
                 réaliser vos photos
               </p>
             </div>
-            <div class="service__price">
-              <h4>350€/demi journée</h4>
-              <span>Matériel, déplacement inclus</span>
+            <div
+              class="service__price"
+              itemscope
+              itemtype="https://schema.org/Offer"
+            >
+              <span itemprop="price" content="350">350€/demi journée</span>
+              <span itemprop="description">Matériel, déplacement inclus</span>
+              <meta itemprop="priceCurrency" content="EUR" />
             </div>
           </article>
-          <article class="service">
+          <article
+            class="service"
+            itemscope
+            itemtype="https://schema.org/Service"
+          >
             <div class="service__description">
-              <h3>Retouches</h3>
-              <p>
+              <h3 itemprop="name">Retouches</h3>
+              <p itemprop="description">
                 Vous souhaitez retoucher vos photos pour un résultat
                 professionnel ? Bénéficier d'un rendu optimal pour vos
                 publications
               </p>
             </div>
-            <div class="service__price">
-              <h4>50€/photo</h4>
-              <span>2 AR par photo</span>
+            <div
+              class="service__price"
+              itemscope
+              itemtype="https://schema.org/Offer"
+            >
+              <span itemprop="price" content="50">50€/photo</span>
+              <span itemprop="description">2 AR par photo</span>
+              <meta itemprop="priceCurrency" content="EUR" />
             </div>
           </article>
-          <article class="service">
+          <article
+            class="service"
+            itemscope
+            itemtype="https://schema.org/Service"
+          >
             <div class="service__description">
-              <h3>Album photos</h3>
-              <p>
+              <h3 itemprop="name">Album photos</h3>
+              <p itemprop="description">
                 Partagez avec vos proches et vos clients les photos des moments
                 partagés ensemble à travers un album photo personnalisé
               </p>
             </div>
-            <div class="service__price">
-              <h4>400€ album A4</h4>
-              <span>30 pages recto/verso</span>
+            <div
+              class="service__price"
+              itemscope
+              itemtype="https://schema.org/Offer"
+            >
+              <span itemprop="price" content="400">400€ album A4</span>
+              <span itemprop="description">30 pages recto/verso</span>
+              <meta itemprop="priceCurrency" content="EUR" />
             </div>
           </article>
         </div>
